@@ -14,12 +14,13 @@ promps diisi dengan perintah chat gpt
 ```
 http://172.190.99.126:3000/api/v1/chatgpt/buatkan%20fakta%20random%20di%20seluruh%20dunia
 
-OR 
+Atau
 
 const prompts : 'buatkan fakta random di seluruh dunia';
 
-http://172.190.99.126:3000/api/v1/chatgpt/${prompts}
+fetch(`http://172.190.99.126:3000/api/v1/chatgpt/${prompts`}).then(response => response)
 
+console.log(response)
 
 ```
 
