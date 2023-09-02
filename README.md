@@ -4,10 +4,13 @@ Ini adalah sebuah backend dari chat gpt sederhana
 link api :
 ```
 http://172.190.99.126:3000/api/v1/chatgpt/:promps
-``
+
+```
+
 promps diisi dengan perintah chat gpt
 
 #Contoh :
+
 ```
 http://172.190.99.126:3000/api/v1/chatgpt/buatkan%20fakta%20random%20di%20seluruh%20dunia
 
@@ -19,6 +22,7 @@ http://172.190.99.126:3000/api/v1/chatgpt/${prompts}
 
 
 ```
+
 #Response
 
 ```
